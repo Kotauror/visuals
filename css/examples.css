@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+}
+
+.images {
+
+}
+.mySlides {
+  margin-top: 3em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w3-display-left {
+  margin-top: 1em;
+  float: left;
+  margin-left: 40%;
+}
+
+.w3-display-right {
+  margin-top: 1em;
+  float: right;
+  margin-right: 40%;
+}
