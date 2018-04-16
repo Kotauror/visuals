@@ -37,4 +37,17 @@ html, body {
 
 .data_form h1 {
   font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+}
+
+.examples_link {
+  margin-top: 2em;
+  font-size: 1em;
+  text-align: center;
+}
+
+a:active, a:visited, a:link {
+  text-decoration: none;
+  color: black;
 }
