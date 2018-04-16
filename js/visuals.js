@@ -3,12 +3,17 @@ $(document).ready(() => {
     .append("svg")
     .attr("width", "100%")
     .attr("height", "100%")
+    .attr('class', 'svg')
 
 
+  var i = 20;
+  for (;i < 700;) {
   canvas.append("line")
-    .attr('x1', 0)
-    .attr('y1', 0)
-    .attr('x2', 200)
-    .attr('y2', 200)
-    .style('stroke', 'red')
+    .attr('x1', 20)
+    .attr('y1', 20)
+    .attr('x2', 90)
+    .attr('y2', i)
+    .style('stroke', '#3e3330')
+    i += 20
+  }
 })

@@ -1,6 +1,26 @@
-html, body, .main {
+html, body {
   height: 100%;
   margin: 0;
   overflow: hidden;
   width: 100%;
+  display: flex;
+}
+
+.main {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  width: 80%;
+  display: flex;
+}
+
+.svg {
+  background-color: #f08080c4;
+  display: flex;
+}
+
+.data_form {
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
 }
