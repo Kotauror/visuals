@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  font-family: Work Sans;
 }
 
 .images {
@@ -14,12 +15,38 @@ html, body {
 
 .w3-display-left {
   margin-top: 1em;
-  float: left;
-  margin-left: 40%;
+  top: 50%;
+  left: 15%;
+  position: relative;
 }
 
 .w3-display-right {
   margin-top: 1em;
-  float: right;
-  margin-right: 40%;
+  top: 50%;
+  left: 60%;
+  position: relative;
+}
+
+.w3-display-left:hover {
+  background-color: #f29b9c
+}
+
+.w3-display-right:hover {
+  background-color: #f29b9c
+}
+
+.goback_link {
+  margin-top: 2em;
+  font-size: 1em;
+  text-align: center;
+}
+
+p1:hover {
+  background-color: #f29b9c;
+}
+
+
+a:active, a:visited, a:link {
+  text-decoration: none;
+  color: black;
 }
