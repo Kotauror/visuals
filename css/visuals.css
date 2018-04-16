@@ -4,6 +4,7 @@ html, body {
   overflow: hidden;
   width: 100%;
   display: flex;
+  font-family: Work Sans;
 }
 
 .main {
@@ -23,4 +24,17 @@ html, body {
   width: min-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.window {
+  margin: 0.5em;
+}
+.data_form_bg {
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data_form h1 {
+  font-size: 1.5em;
 }

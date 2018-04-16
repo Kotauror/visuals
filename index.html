@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Visuals</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -14,13 +14,21 @@
   <body>
     <div class="main"></div>
     <form class="data_form">
-      <input type="text" class="x1" placeholder="X1">
-      <input type="text" class="x2" placeholder="X2">
-      <input type="text" class="y1" placeholder="y1">
-      <input type="text" class="y2" placeholder="y2">
-      <input type="text" class="iterator" placeholder="iterator">
-      <input type="text" class="limit" placeholder="limit">
+      <h1> Fill the data </h1>
+      <input type="text" class="x1 window" placeholder="x-axis start">
+      <input type="text" class="x2 window" placeholder="x-axis finish">
+      <input type="text" class="y1 window" placeholder="y-axis start">
+      <input type="text" class="y2 window" placeholder="x-axis finish">
+      <input type="text" class="iterator window" placeholder="iterator">
+      <input type="text" class="limit window" placeholder="space taken">
+      <input type="color" class="stroke-col" value="#3e3330">
       <input type="submit" value="submit" class="submit">
     </form>
+
+  
+    <!-- <form class="data_form_bg">
+      <input type="color" class="bg-col" value="#f08080">
+      <input type="submit" value="submit" class="submit">
+    </form> -->
   </body>
 </html>
